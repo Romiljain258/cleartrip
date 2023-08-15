@@ -1,0 +1,50 @@
+/* Primary Color Bold (Hotel Title, Price in Hotel Details): #1A1A1A font Weight: 600
+Primary Color Normal (Hotel Title, Price in Hotel Details): #1A1A1A font Weight: 500
+Secondary Color (‘/nights’ in hotel details/divider): #888888
+ */
+:root {
+    --primary-color: #1A1A1A;
+    --secondary-color: #888888
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent__card__container{
+    margin: 0.5rem;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 auto;
+    max-width: 910px;
+    margin-bottom: 2rem;
+    /* align-items: center; */
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card__name{
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.card__price{
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.card__freeBreakfast{
+    color: green;
+}

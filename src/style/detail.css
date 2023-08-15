@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #1A1A1A;
+    --secondary-color: #888888
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.detail__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 auto;
+    max-width: 910px;
+    margin-bottom: 2rem;
+    margin: 1.5rem;
+}
+
+.detail__line{
+    margin-top: 0.5rem;
+    border: 1px solid #dedede;
+    margin-bottom: 1.5rem;
+}
+
+.detail__image {
+    display: block;
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+.detail__name{
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1.9rem;
+}
+
+.detail__price{
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.detail__freeBreakfast{
+    color: green;
+}
+
+.detail__description{
+line-height: 1.5rem;
+    color:var(--secondary-color);
+}
+
+.detail__image__icon_left{
+    float: left;
+    cursor: pointer;
+}
+
+.detail__image__icon_right{
+    float: right;
+    cursor: pointer;
+}
